@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { Footer, Header } from '@/core/components/shared'
+import './globals.css'
 
 type RootLayoutProps = {
   children: ReactNode

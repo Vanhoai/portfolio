@@ -3,11 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
 const About: NextPage = () => {
-  return (
-    <div>
-      <Link href="/">Home</Link>
-    </div>
-  )
+  return <div>About</div>
 }
 
 export default About
