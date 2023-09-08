@@ -2,8 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "SF Pro Display Regular";
+    src: url("../assets/fonts/SF-Pro-Display-Regular.otf");
+}
+
+@font-face {
+    font-family: "SF Pro Display Bold";
+    src: url("../assets/fonts/SF-Pro-Display-Bold.otf");
+}
+
+@font-face {
+    font-family: "SF Pro Display Light";
+    src: url("../assets/fonts/SF-Pro-Display-Light.otf");
+}
+
+@font-face {
+    font-family: "SF Pro Display Medium";
+    src: url("../assets/fonts/SF-Pro-Display-Medium.otf");
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "SF Pro Display Regular", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.app {
+    position: relative;
+}
+
+.main {
+    padding-top: 8rem;
 }

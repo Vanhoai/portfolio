@@ -1,0 +1,14 @@
+.footer__main {
+    display: flex;
+    border-top: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 4rem 28rem;
+}
+
+.footer__sub {
+    padding: 1rem 28rem;
+    display: flex;
+    border-top: 1px solid rgba(209, 213, 219, 0.3);
+    align-items: center;
+    justify-content: space-between;
+
+}
