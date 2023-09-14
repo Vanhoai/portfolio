@@ -27,6 +27,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "ts-node": "^10.9.1"
   }
 }
