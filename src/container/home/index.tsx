@@ -1,6 +1,7 @@
 'use client'
 import { HomeProps } from '@/app/page'
 import React from 'react'
+import { motion } from 'framer-motion'
 import './style.css'
 
 const HomeContainer: React.FC<HomeProps> = () => {
