@@ -23,6 +23,10 @@ const AboutContainer: React.FC = () => {
     }
   }, [])
 
+  const sendMessage = () => {
+    WS.send(value)
+  }
+
   return (
     <div className="flex">
       <input
@@ -42,6 +46,7 @@ const AboutContainer: React.FC = () => {
           padding: '10px',
           borderRadius: '5px',
         }}
+        onClick={sendMessage}
       >
         Send
       </button>
